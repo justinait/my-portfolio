@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Profile from './components/Profile/Profile';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <a href='https://drive.google.com/file/d/1p8YhZ3q-Ni5WcUYJCxAni0ada_ss2KS9/view' target="_blank" style={{textDecoration:'none'}}>
+        <h1 className='title' >          Justina Iturraspe        </h1>  
+      </a>
+      
+      < Profile />
+      < Footer />
     </div>
   );
 }
