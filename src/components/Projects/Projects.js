@@ -43,7 +43,7 @@ function Projects() {
       {/* aceite ig jorg notas
       
       
-      
+      https://ibb.co/RcYp62c
       https://ibb.co/qR6jmMG
       https://ibb.co/yNBqzzH
       https://ibb.co/h2zqqrS
@@ -53,7 +53,8 @@ function Projects() {
       {/* ACEITE DE OLIVA */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src='https://ibb.co/RcYp62c' />
+          <Card.Img variant="top" src='https://i.ibb.co/zZQh2sZ/aceite.png' />
+          {/* <img src="https://i.ibb.co/zZQh2sZ/aceite.png" alt="aceite" border="0" /> */}
           <Card.Body>
             <Card.Title>E-commerce Aceite de Oliva</Card.Title>
             <Card.Text>
