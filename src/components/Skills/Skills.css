@@ -1,0 +1,47 @@
+.profileContainer {
+    border: #f1f1f1 solid 6px;
+    color: white;
+    background: #f9f41300;
+    width: 55%;
+    margin: auto;
+    padding: 3%;
+    box-shadow: 77px 48px 0px rgb(0 0 0 / 70%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-content: center;
+    margin-bottom: 10%;
+}
+
+.skillContainer {
+    width: 90%;
+}
+
+.skillIcon {
+    width: 90%;
+}
+
+@media (min-width:467px) {
+    
+    .skillContainer {
+        width: 50%;
+    }
+
+    .skillIcon {
+        width: 90%;
+    }
+
+}
+
+@media (min-width:992px) {
+    
+    .skillContainer {
+        width: 33%;
+    }
+
+    .skillIcon {
+        width: 70%;
+    }
+
+}
