@@ -10,7 +10,8 @@ function Projects() {
       {/* JORGELINA */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src='./jorgelina.png' />
+          {/* <Card.Img variant="top" src='./jorgelina.png' /> */}
+          <img src="https://i.ibb.co/HKpqcc5/jorgelina.png" alt="jorgelina" border="0" />
           <Card.Body>
             <Card.Title>Blog</Card.Title>
             <Card.Text>
@@ -27,7 +28,8 @@ function Projects() {
       {/* NOTAS */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src='./notes (1).png' />
+          {/* <Card.Img variant="top" src='./notes (1).png' /> */}
+          <img src="https://i.ibb.co/wpmvv8f/notes-1.png" alt="notes-1" border="0" />
           <Card.Body>
             <Card.Title>App de notas</Card.Title>
             <Card.Text>
@@ -71,7 +73,8 @@ function Projects() {
       {/* INSTAGRAM */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src='./instagram.png' />
+          {/* <Card.Img variant="top" src='./instagram.png' /> */}
+          <img src="https://i.ibb.co/55Z4sWD/instagram.png" alt="instagram" border="0" />
           <Card.Body>
             <Card.Title>Instagram Clone</Card.Title>
             <Card.Text>
