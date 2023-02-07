@@ -14,10 +14,10 @@
 }
 
 .title {
-  font-family: 'Sue Ellen Francisco', cursive;
+  /* font-family: 'Sue Ellen Francisco', cursive; */
   color: yellow;
-  font-size: 4em;
-  padding: 4%;
+  font-size: 3em;
+  padding: 5%;
 }
 
 .title:hover {

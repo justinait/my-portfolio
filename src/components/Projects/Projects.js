@@ -13,7 +13,7 @@ function Projects() {
 
         <Card style={{ width: '18rem' }}>
 
-          <img src="https://i.ibb.co/HKpqcc5/jorgelina.png" alt="jorgelina" border="0" />
+          <img src="https://i.ibb.co/ngLDpgD/jorgelina.png" alt="jorgelina" border="0" />
 
           <Card.Body>
 
@@ -34,7 +34,7 @@ function Projects() {
       {/* NOTAS */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          <img src="https://i.ibb.co/wpmvv8f/notes-1.png" alt="notes-1" border="0" />
+          <img src="https://i.ibb.co/LvczTQ1/notes-1.png" alt="notes-1" border="0" />
           <Card.Body>
             <Card.Title>App de notas</Card.Title>
             <Card.Text>
@@ -47,19 +47,12 @@ function Projects() {
           </Card.Body>
         </Card>
       </div>
-      {/* aceite ig jorg notas
-        https://ibb.co/RcYp62c
-        https://ibb.co/qR6jmMG
-        https://ibb.co/yNBqzzH
-        https://ibb.co/h2zqqrS
-        https://ibb.co/MPkQp2p
-      */}
 
       {/* ACEITE DE OLIVA */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-
-          <img src="https://i.ibb.co/zZQh2sZ/aceite.png" alt="aceite" border="0" />
+          <img src="https://i.ibb.co/sPHTVL0/aceite.png" alt="aceite" border="0"/>
+          
           <Card.Body>
             <Card.Title>E-commerce Aceite de Oliva</Card.Title>
             <Card.Text>
@@ -76,7 +69,7 @@ function Projects() {
       {/* INSTAGRAM */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          <img src="https://i.ibb.co/55Z4sWD/instagram.png" alt="instagram" border="0" />
+          <img src="https://i.ibb.co/t8NyGs7/instagram.png" alt="instagram" border="0" />
           <Card.Body>
             <Card.Title>Instagram Clone</Card.Title>
             <Card.Text>
