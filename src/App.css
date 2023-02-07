@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Comfortaa', cursive; */
+  /* font-family: 'Sue Ellen Francisco', cursive; */
+  font-family: 'Piazzolla', serif;
   font-size: 26px;
 }
 
@@ -12,8 +14,9 @@
 }
 
 .title {
+  font-family: 'Sue Ellen Francisco', cursive;
   color: yellow;
-  font-size: 2em;
+  font-size: 4em;
   padding: 4%;
 }
 

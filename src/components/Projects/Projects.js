@@ -2,6 +2,7 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './Projects'
+import './Projects.css'
 
 function Projects() {
   return (
@@ -9,63 +10,65 @@ function Projects() {
       
       {/* JORGELINA */}
       <div className='project'>
+
         <Card style={{ width: '18rem' }}>
-          {/* <Card.Img variant="top" src='./jorgelina.png' /> */}
+
           <img src="https://i.ibb.co/HKpqcc5/jorgelina.png" alt="jorgelina" border="0" />
+
           <Card.Body>
+
             <Card.Title>Blog</Card.Title>
+
             <Card.Text>
-              Blog de la artista plástica Jorgelina Parkinson. Muestra sus pinturas separadas por series y su biografía.
+              Blog de la artista plástica Jorgelina Parkinson. Muestra sus pinturas separadas por series.
             </Card.Text>
-            <Button variant="primary">DEMO</Button> 
-            {/* https://jorgelinaparkinson.vercel.app/ */}
-            <Button variant="primary">REPO</Button>
-            {/* https://github.com/justinait/jorgelinaparkinson */}
+            
+            <Button href='https://jorgelinaparkinson.com' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+            <Button href='https://github.com/justinait/jorgelinaparkinson' target="_blank" variant="dark" className='cardButton'>REPO</Button>
+
           </Card.Body>
+
         </Card>
       </div>
 
       {/* NOTAS */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          {/* <Card.Img variant="top" src='./notes (1).png' /> */}
           <img src="https://i.ibb.co/wpmvv8f/notes-1.png" alt="notes-1" border="0" />
           <Card.Body>
             <Card.Title>App de notas</Card.Title>
             <Card.Text>
               Aplicación de Notas - Recordatorio. Crea, almacena y elimina tus notas.
             </Card.Text>
-            <Button variant="primary">DEMO</Button> 
-            {/* https://notes-app-react-ivory.vercel.app/ */}
-            <Button variant="primary">REPO</Button>
-            {/* https://github.com/justinait/Notes-app-react */}
+            
+            <Button href='https://notes-app-react-ivory.vercel.app/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+            <Button href='https://github.com/justinait/Notes-app-react' target="_blank" variant="dark" className='cardButton'>REPO</Button>
+
           </Card.Body>
         </Card>
       </div>
       {/* aceite ig jorg notas
-      
-      
-      https://ibb.co/RcYp62c
-      https://ibb.co/qR6jmMG
-      https://ibb.co/yNBqzzH
-      https://ibb.co/h2zqqrS
-      https://ibb.co/MPkQp2p
+        https://ibb.co/RcYp62c
+        https://ibb.co/qR6jmMG
+        https://ibb.co/yNBqzzH
+        https://ibb.co/h2zqqrS
+        https://ibb.co/MPkQp2p
+      */}
 
-*/}
       {/* ACEITE DE OLIVA */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          {/* <Card.Img variant="top" src='https://i.ibb.co/zZQh2sZ/aceite.png' /> */}
+
           <img src="https://i.ibb.co/zZQh2sZ/aceite.png" alt="aceite" border="0" />
           <Card.Body>
             <Card.Title>E-commerce Aceite de Oliva</Card.Title>
             <Card.Text>
               E-commerce construido con React Js. Venta de Aceite de Oliva y Aceitunas.
             </Card.Text>
-            <Button variant="primary">DEMO</Button> 
-            {/* https://ecommerce-react-lake.vercel.app/ */}
-            <Button variant="primary">REPO</Button>
-            {/* https://github.com/justinait/ecommerce-react */}
+
+            <Button href='https://ecommerce-react-lake.vercel.app/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+            <Button href='https://github.com/justinait/ecommerce-react' target="_blank" variant="dark" className='cardButton'>REPO</Button>
+
           </Card.Body>
         </Card>
       </div>
@@ -73,17 +76,16 @@ function Projects() {
       {/* INSTAGRAM */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          {/* <Card.Img variant="top" src='./instagram.png' /> */}
           <img src="https://i.ibb.co/55Z4sWD/instagram.png" alt="instagram" border="0" />
           <Card.Body>
             <Card.Title>Instagram Clone</Card.Title>
             <Card.Text>
-              Clon de red social: Instagram
+              Clon de red social: Instagram.
             </Card.Text>
-            <Button variant="primary">DEMO</Button> 
-            {/* https://instagram-clone-umber-one.vercel.app/ */}
-            <Button variant="primary">REPO</Button>
-            {/* https://github.com/justinait/instagram-clone */}
+
+            <Button href='https://instagram-clone-umber-one.vercel.app/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+            <Button href='https://github.com/justinait/instagram-clone' target="_blank" variant="dark" className='cardButton'>REPO</Button>
+            
           </Card.Body>
         </Card>
       </div>
