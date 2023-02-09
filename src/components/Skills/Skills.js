@@ -3,7 +3,7 @@ import './Skills.css'
 
 function Skills() {
   return (
-    <div className='profileContainer'>
+    <div className='skillsContainer'>
       <div className='skillContainer'>
         <img src='/logos/js.png' className='skillIcon'/>
         <p>Javascript</p>

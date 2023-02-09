@@ -1,8 +1,8 @@
-.profileContainer {
+.skillsContainer {
     border: #f1f1f1 solid 6px;
     color: white;
     background: #f9f41300;
-    width: 55%;
+    width: 42%;
     margin: auto;
     padding: 3%;
     box-shadow: 77px 48px 0px rgb(0 0 0 / 70%);
@@ -12,6 +12,7 @@
     align-items: flex-end;
     align-content: center;
     margin-bottom: 10%;
+    margin-top: 5%;
 }
 
 .skillContainer {
