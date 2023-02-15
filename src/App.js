@@ -22,7 +22,7 @@ function App() {
           <Route path='/skills' element={< Skills />} />
 
         </Routes>
-        {/* <Footer/> */}
+        
       </BrowserRouter>
   );
 }

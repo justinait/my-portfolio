@@ -21,12 +21,7 @@
 
 .educationIcon {
     width: 67%;
-}
-
-
-h2 {
-    font-size: 1.5em;
-    margin: 3% 0 8% 0;
+    margin: 3%;
 }
 
 @media (max-width: 766px){
