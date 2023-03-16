@@ -23,7 +23,7 @@ function Projects() {
               Blog de la artista plástica Jorgelina Parkinson. Muestra sus pinturas separadas por series.
             </Card.Text>
             
-            <Button href='https://jorgelinaparkinson.com' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+            <Button href='https://jorgelinaparkinson.vercel.app/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
             <Button href='https://github.com/justinait/jorgelinaparkinson' target="_blank" variant="dark" className='cardButton'>REPO</Button>
 
           </Card.Body>

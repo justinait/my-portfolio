@@ -4,6 +4,7 @@ import './Education.css'
 function Education() {
   return (
     <div className='educationContainer'>
+      
       <div className='education'>
         <img src='/logos/dh.jpg' className='educationIcon'/>
         {/* <h4>Digital House</h4> */}

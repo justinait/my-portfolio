@@ -18,7 +18,7 @@ function Home() {
         Aspiro a adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional. 
         Soy responsable y proactiva, me gusta aprender de los demás y superarme continuamente.
       </p>
-
+      
       <Footer/>
 
     </div>
