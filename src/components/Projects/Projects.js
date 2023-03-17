@@ -82,6 +82,23 @@ function Projects() {
           </Card.Body>
         </Card>
       </div>
+
+      {/* css card */}
+      <div className='project'>
+        <Card style={{ width: '18rem' }}>
+          <img src="https://i.ibb.co/WVZCKyW/Captura-de-pantalla-33.png" alt="Captura-de-pantalla-33" border="0"/>
+          <Card.Body>
+            <Card.Title>CSS Challenge</Card.Title>
+            <Card.Text>
+              Challenge de css. Copia exacta de Card Preview.
+            </Card.Text>
+
+            <Button href='https://ibb.co/tLgRCsM' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+            <Button href='https://github.com/justinait/product-preview-card-challenge' target="_blank" variant="dark" className='cardButton'>REPO</Button>
+            
+          </Card.Body>
+        </Card>
+      </div>
     </div>
     
   )
