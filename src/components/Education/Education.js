@@ -9,7 +9,7 @@ function Education() {
         <img src='/logos/dh.jpg' className='educationIcon'/>
         {/* <h4>Digital House</h4> */}
         <h5>Full Stack Developer</h5>
-        <p>2023</p>
+        <p>2021</p>
       </div>
       <div className='education'>
         <img src='/logos/coderhouse.png' className='educationIcon'/>  
