@@ -28,8 +28,8 @@ function Skills() {
         <img src='/logos/gh.png' className='skillIcon'/>  
         <p>GitHub</p>
       </div>
-      
     </div>
+    
   )
 }
 

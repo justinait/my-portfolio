@@ -17,10 +17,10 @@ function Projects() {
 
           <Card.Body>
 
-            <Card.Title>Blog</Card.Title>
+            <Card.Title>Página Web</Card.Title>
 
             <Card.Text>
-              Blog de la artista plástica Jorgelina Parkinson. Muestra sus pinturas separadas por series.
+              Blog de la artista plástica Jorgelina Parkinson. Muestra sus pinturas separadas por series. Maquetación y desarrollo.
             </Card.Text>
             
             <Button href='https://jorgelinaparkinson.com/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
@@ -30,7 +30,30 @@ function Projects() {
 
         </Card>
       </div>
+      
+      {/* REGIA */}
+      <div className='project'>
 
+      <Card style={{ width: '18rem' }}>
+
+        <img src="https://i.ibb.co/KL1DLCM/regia.png" alt="regia" border="0" />
+        
+        <Card.Body>
+
+          <Card.Title>Página Web</Card.Title>
+
+          <Card.Text>
+            Página web para publicitar maquillaje semipermanente. Desarrollo.
+          </Card.Text>
+          
+          <Button href='https://regia.ar/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+          <Button href='https://github.com/justinait/regia' target="_blank" variant="dark" className='cardButton'>REPO</Button>
+
+        </Card.Body>
+
+      </Card>
+
+      </div>
       {/* NOTAS */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
