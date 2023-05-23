@@ -13,7 +13,7 @@ function Projects() {
 
         <Card style={{ width: '18rem' }}>
 
-          <img src="https://i.ibb.co/ngLDpgD/jorgelina.png" alt="jorgelina" border="0" />
+          <img src="https://i.ibb.co/ngLDpgD/jorgelina.png" alt="jorgelina" border="0" className='projectImage' />
 
           <Card.Body>
 
@@ -36,7 +36,7 @@ function Projects() {
 
       <Card style={{ width: '18rem' }}>
 
-        <img src="https://i.ibb.co/KL1DLCM/regia.png" alt="regia" border="0" />
+        <img src="https://i.ibb.co/KL1DLCM/regia.png" alt="regia" border="0" className='projectImage' />
         
         <Card.Body>
 
@@ -57,7 +57,7 @@ function Projects() {
       {/* NOTAS */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          <img src="https://i.ibb.co/LvczTQ1/notes-1.png" alt="notes-1" border="0" />
+          <img src="https://i.ibb.co/LvczTQ1/notes-1.png" alt="notes-1" border="0" className='projectImage' />
           <Card.Body>
             <Card.Title>App de notas</Card.Title>
             <Card.Text>
@@ -74,7 +74,7 @@ function Projects() {
       {/* ACEITE DE OLIVA */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          <img src="https://i.ibb.co/sPHTVL0/aceite.png" alt="aceite" border="0"/>
+          <img src="https://i.ibb.co/sPHTVL0/aceite.png" alt="aceite" border="0" className='projectImage'/>
           
           <Card.Body>
             <Card.Title>E-commerce Aceite de Oliva</Card.Title>
@@ -92,7 +92,7 @@ function Projects() {
       {/* INSTAGRAM */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          <img src="https://i.ibb.co/t8NyGs7/instagram.png" alt="instagram" border="0" />
+          <img src="https://i.ibb.co/t8NyGs7/instagram.png" alt="instagram" border="0" className='projectImage' />
           <Card.Body>
             <Card.Title>Instagram Clone</Card.Title>
             <Card.Text>
@@ -109,7 +109,7 @@ function Projects() {
       {/* css card */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          <img src="https://i.ibb.co/WVZCKyW/Captura-de-pantalla-33.png" alt="Captura-de-pantalla-33" border="0"/>
+          <img src="https://i.ibb.co/WVZCKyW/Captura-de-pantalla-33.png" alt="Captura-de-pantalla-33" border="0" className='projectImage'/>
           <Card.Body>
             <Card.Title>CSS Challenge</Card.Title>
             <Card.Text>

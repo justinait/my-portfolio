@@ -6,6 +6,10 @@
     justify-content: space-around;
 }
 
+.projectImage {
+    border-radius: 5% 5% 0 0;
+}
+
 .card {
     width: 14rem !important;
     height: 50vh;
