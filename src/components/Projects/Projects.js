@@ -98,8 +98,9 @@ function Projects() {
             <Card.Text>
               Clon de red social: Instagram.
             </Card.Text>
-
-            <Button href='https://instagram-clone-umber-one.vercel.app/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+            
+            {/*  href='https://instagram-clone-umber-one.vercel.app/' */}
+            <Button style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
             <Button href='https://github.com/justinait/instagram-clone' target="_blank" variant="dark" className='cardButton'>REPO</Button>
             
           </Card.Body>
