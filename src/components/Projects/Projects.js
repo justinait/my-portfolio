@@ -8,6 +8,29 @@ function Projects() {
   return (
     <div className='projectsContainer'>
       
+      {/* ESKAMAQ */}
+      <div className='project'>
+
+        <Card style={{ width: '18rem' }}>
+
+        <img src="https://i.ibb.co/ZgVT9Q9/eskamaq.png" alt="eskamaq" border="0" className='projectImage' ></img>
+
+          <Card.Body>
+
+            <Card.Title>Página Web</Card.Title>
+
+            <Card.Text>
+              Página web Eskamaq. Muestra de maquinaria grande. Muestra sus productos separados por marcas y clasificación. Maquetación, desarrollo, deploy.
+            </Card.Text>
+            
+            <Button href='https://eskamaq.vercel.app/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+            <Button href='https://github.com/justinait/eskamaq' target="_blank" variant="dark" className='cardButton'>REPO</Button>
+
+          </Card.Body>
+
+        </Card>
+      </div>
+
       {/* JORGELINA */}
       <div className='project'>
 
@@ -20,7 +43,7 @@ function Projects() {
             <Card.Title>Página Web</Card.Title>
 
             <Card.Text>
-              Blog de la artista plástica Jorgelina Parkinson. Muestra sus pinturas separadas por series. Maquetación y desarrollo.
+              Blog de la artista plástica Jorgelina Parkinson. Exhibe sus pinturas separadas por series. Maquetación, desarrollo, deploy.
             </Card.Text>
             
             <Button href='https://jorgelinaparkinson.com/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
@@ -43,7 +66,7 @@ function Projects() {
           <Card.Title>Página Web</Card.Title>
 
           <Card.Text>
-            Página web para publicitar maquillaje semipermanente. Desarrollo.
+            Página web para publicitar maquillaje semipermanente. Desarrollo y deploy.
           </Card.Text>
           
           <Button href='https://regia.ar/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
