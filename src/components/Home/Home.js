@@ -15,8 +15,11 @@ function Home() {
     
       <p className='presentation'>
         Soy estudiante autodidacta de Desarrollo Web enfocado en Frontend. 
-        Aspiro a adquirir experiencia, nuevos conocimientos y fortalecer mi vida profesional. 
-        Soy responsable y proactiva, me gusta aprender de los demás y superarme continuamente.
+        Actualmente estoy potenciando mi desarrollo
+        académico y profesional como desarrolladora web
+        de manera freelance. Con una actitud entusiasta y
+        una pasión por aprender, me caracterizo por asumir
+        nuevos desafíos y enfrentarlos con determinación.        
       </p>
       {/* <Footer/> */}
 
