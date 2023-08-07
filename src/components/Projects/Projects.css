@@ -11,9 +11,8 @@
 }
 
 .card {
-    width: 14rem !important;
+    /* width: 14rem !important; */
     height: 50vh;
-    /* aspect-ratio: 1/1; */
 }
 
 .project {
@@ -32,4 +31,10 @@
 
 .cardButton {
     margin: 1%;
+}
+
+@media (min-width: 667px) {
+    .card {
+        width: 14rem !important;
+    }
 }
