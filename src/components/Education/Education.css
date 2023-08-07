@@ -4,6 +4,7 @@
     background: #f9f41300;
     width: 68%;
     margin: auto;
+    margin-top: 20%;
     padding: 3%;
     box-shadow: 77px 48px 0px rgb(0 0 0 / 70%);
     display: flex;
@@ -13,6 +14,7 @@
     margin-bottom: 10%;
     margin-top: 5%;
     align-items: flex-start;
+    flex-direction: column;
 }
 
 .education {
@@ -24,8 +26,10 @@
     margin: 3%;
 }
 
-@media (max-width: 766px){
+@media (min-width: 766px){
     .educationContainer {
-        margin-top: 10%;
+        margin-top: unset;
+        flex-direction: row;
+        margin-top: 5%;
     }
 }
