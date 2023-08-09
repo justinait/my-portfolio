@@ -23,7 +23,7 @@ function Projects() {
               Página web Eskamaq. Muestra de maquinaria grande. Muestra sus productos separados por marcas y clasificación. Maquetación, desarrollo, deploy.
             </Card.Text>
             
-            <Button href='https://eskamaq.vercel.app/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+            <Button href='https://www.eskamaq.com/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
             <Button href='https://github.com/justinait/eskamaq' target="_blank" variant="dark" className='cardButton'>REPO</Button>
 
           </Card.Body>
