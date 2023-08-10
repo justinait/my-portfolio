@@ -20,7 +20,7 @@
 }
 
 .card-text {
-    font-size: 20px;
+    font-size: 12px;
     text-align: initial;
 }
 
@@ -36,5 +36,8 @@
 @media (min-width: 667px) {
     .card {
         width: 14rem !important;
+    }
+    .card-text {
+        font-size: 20px;
     }
 }
