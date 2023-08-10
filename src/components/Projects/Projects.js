@@ -13,7 +13,7 @@ function Projects() {
 
         <Card style={{ width: '18rem' }}>
 
-        <img src="https://i.ibb.co/ZgVT9Q9/eskamaq.png" alt="eskamaq" border="0" className='projectImage' ></img>
+          <img src="https://i.ibb.co/ZgVT9Q9/eskamaq.png" alt="eskamaq" border="0" className='projectImage' ></img>
 
           <Card.Body>
 

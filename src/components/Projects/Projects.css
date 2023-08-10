@@ -7,7 +7,7 @@
 }
 
 .projectImage {
-    border-radius: 5% 5% 0 0;
+    border-radius: 7px 7px 0 0;
 }
 
 .card {
@@ -36,8 +36,21 @@
 @media (min-width: 667px) {
     .card {
         width: 14rem !important;
+        border: 2px solid black !important;
+        transition: background-color 0.4s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;;
     }
     .card-text {
         font-size: 20px;
+    }
+    .card:hover {
+        box-shadow: 10px 4px 0px 4px rgba(0,0,0,1);
+        -webkit-box-shadow: 10px 4px 0px 4px rgba(0,0,0,1);
+        -moz-box-shadow: 10px 4px 0px 4px rgba(0,0,0,1);
+        /* border: 6px solid black; */
+
+        box-shadow: -4px -5px 0px 4px rgba(208,208,208,1);
+-webkit-box-shadow: -4px -5px 0px 4px rgba(208,208,208,1);
+-moz-box-shadow: -4px -5px 0px 4px rgba(208,208,208,1);
+        border: 2px solid rgba(208,208,208,1) !important;
     }
 }
