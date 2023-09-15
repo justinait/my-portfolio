@@ -25,8 +25,8 @@ Here is my portfolio
 
 #### 🧑‍💻 Developers:
 
-| <img src="https://avatars.githubusercontent.com/u/102929742?v=4" width=50>| <img src="https://avatars.githubusercontent.com/u/105551748?v=4" width=50>| <img src="https://avatars.githubusercontent.com/u/73416791?v=4" width=50>|
-|:-:|:-:|:-:|
+| <img src="https://avatars.githubusercontent.com/u/81998551?v=4" width=50>| 
+|:-:|
 | **Justina Iturraspe**|
 | <a href="https://github.com/justinait"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/justinaiturraspe/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
 
