@@ -23,10 +23,10 @@ Here is my portfolio
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white) 
 ![Netlify](https://img.shields.io/badge/-Netlify-00C7B7?logo=netlify&logoColor=black&style=for-the-badge)
 
-#### 🧑‍💻 Developers:
+#### 🧑‍💻 Developer:
 
-| <img src="https://avatars.githubusercontent.com/u/81998551?v=4" width=50>| 
+<!-- | <img src="https://avatars.githubusercontent.com/u/81998551?v=4" width=50>| 
 |:-:|
 | **Justina Iturraspe**|
-| <a href="https://github.com/justinait"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/justinaiturraspe/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |
+| <a href="https://github.com/justinait"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/justinaiturraspe/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | -->
 
