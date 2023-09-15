@@ -8,6 +8,28 @@ function Projects() {
   return (
     <div className='projectsContainer'>
       
+      {/* CAI VENTURES */}
+      <div className='project'>
+
+        <Card style={{ width: '18rem' }}>
+
+          <img src="https://i.ibb.co/sJQyPWq/caiventures.png" alt="caiventures" className='projectImage' border="0" />
+          <Card.Body>
+
+            <Card.Title>Página Web</Card.Title>
+
+            <Card.Text>
+              Página web CAI Ventures Consultoría. Desarrollo en conjunto con 4 programadores, deploy.
+            </Card.Text>
+            
+            <Button href='https://www.caiventuresconsultoria.com/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+            <Button href='https://github.com/justinait/cai-ventures2' target="_blank" variant="dark" className='cardButton'>REPO</Button>
+
+          </Card.Body>
+
+        </Card>
+      </div>
+
       {/* ESKAMAQ */}
       <div className='project'>
 

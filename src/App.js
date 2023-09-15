@@ -20,7 +20,7 @@ function App() {
       <div onMouseMove={handleMouseMove} className="app-container">
         <Header />
         <Routes>
-          <Route path='/' element={<Home />} className='portfolio-item'/>
+          <Route path='/' element={<Home />} />
           <Route path='/education' element={<Education />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/skills' element={<Skills />} />
