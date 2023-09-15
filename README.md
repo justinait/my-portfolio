@@ -10,20 +10,16 @@ Here is my portfolio
 <hr/>
 
 
-### ⚛️ Front End:
-
 #### 🛠️ Tech Stack:
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black) 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white) 
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white)
-![Axios](https://img.shields.io/badge/Axios-000000?style=for-the-badge&logo=axios&logoColor=white)
-![Tailwind](https://img.shields.io/badge/-Tailwind-06B6D4?logo=tailwind-css&logoColor=white&style=for-the-badge)
+<!-- ![Bootstrap](https://img.shields.io/badge/-Tailwind-06B6D4?logo=tailwind-css&logoColor=white&style=for-the-badge) -->
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white) 
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white) 
-![Netlify](https://img.shields.io/badge/-Netlify-00C7B7?logo=netlify&logoColor=black&style=for-the-badge)
+<!-- ![Vercel](https://img.shields.io/badge/-Netlify-00C7B7?logo=netlify&logoColor=black&style=for-the-badge) -->
 
-#### 🧑‍💻 Developer:
+<!-- #### 🧑‍💻 Developer: -->
 
 <!-- | <img src="https://avatars.githubusercontent.com/u/81998551?v=4" width=50>| 
 |:-:|
