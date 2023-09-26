@@ -21,7 +21,7 @@ function About() {
       </div>
       
       <Education />
-      <Skills />
+      {/* <Skills /> */}
     </div>
   )
 }
