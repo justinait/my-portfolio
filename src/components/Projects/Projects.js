@@ -34,8 +34,8 @@ function Projects() {
       <div className='project'>
 
         <Card style={{ width: '18rem' }}>
-
-          <img src="https://i.ibb.co/ZgVT9Q9/eskamaq.png" alt="eskamaq" border="0" className='projectImage' ></img>
+          
+          <img src="https://i.ibb.co/SRsHq3V/Eskamaq.png" alt="eskamaq" border="0" className='projectImage' ></img>
 
           <Card.Body>
 
@@ -58,7 +58,7 @@ function Projects() {
 
         <Card style={{ width: '18rem' }}>
 
-          <img src="https://i.ibb.co/ngLDpgD/jorgelina.png" alt="jorgelina" border="0" className='projectImage' />
+          <img src="https://i.ibb.co/hYSwHhN/Jorgelina.png" alt="jorgelina" border="0" className='projectImage' />
 
           <Card.Body>
 
