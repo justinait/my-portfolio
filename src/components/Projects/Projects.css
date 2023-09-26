@@ -33,7 +33,7 @@
     margin: 1%;
 }
 
-@media (min-width: 667px) {
+@media (min-width: 1024px) {
     .card {
         width: 14rem !important;
         border: 2px solid black !important;

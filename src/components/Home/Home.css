@@ -29,7 +29,7 @@
 }
 
 
-@media (min-width: 867px) {
+@media (min-width: 1024px) {
     .presentation{
         margin: 8% auto;
     }

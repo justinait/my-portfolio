@@ -9,7 +9,7 @@ import About from './components/About/About';
 function App() {
   return (
     <BrowserRouter>
-      <div className="app-container">
+      <div>
         <Header />
         <Routes>
           

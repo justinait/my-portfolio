@@ -16,7 +16,7 @@
 
 }
 
-@media (min-width:624px) {
+@media (min-width:1024px) {
     .socialMedia{
         display: flex;
         position: absolute;

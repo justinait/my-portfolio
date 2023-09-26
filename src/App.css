@@ -14,16 +14,9 @@
   background-color: rgb(44, 42, 42);
 }
 
-@media (min-width: 667px) {
+@media (min-width: 1024px) {
   * {
     font-size: 26px;
   }
-}
-
-@media (min-width: 667px) {
-  .app-container {
-    position: relative; /* Asegura que el círculo se posicione correctamente */
-  }
   
-
 }
