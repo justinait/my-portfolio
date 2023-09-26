@@ -1,9 +1,10 @@
 .aboutText {
     
-    height: 70vh;
+    height: 77vh;
     color: white;
     width: 71vw;
-    margin: 25% auto 0;
+    margin: auto;
+    padding: 35% 0;
     text-align: left;
     font-weight: 300;
     font-size: large;
@@ -12,6 +13,7 @@
 
 @media (min-width:624px) {
     .aboutText {   
+        padding: 0;
         margin: 10% auto 0;
         font-size: larger;
         height: 60vh;

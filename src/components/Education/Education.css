@@ -1,41 +1,93 @@
 .educationContainer {
-    border: #f1f1f1 solid 6px;
-    color: white;
-    background: #f9f41300;
-    width: 68%;
-    margin: auto;
-    margin-top: 20%;
-    padding: 3%;
-    box-shadow: 77px 48px 0px rgb(0 0 0 / 70%);
+    height: 77vh;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    margin-bottom: 10%;
-    margin-top: 5%;
-    align-items: flex-start;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.subtitles{
+    color: white;
+    text-align: left;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.timeline {
+    padding: 5%;
+    color: white;
+    height: 50vh;
+    border-left: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    justify-content: space-evenly;
+}
+.timeline h4 {
+    font-size: 0.9em;
+    text-align: left;
+}
+.timeline h5 {
+    font-size: 1.2rem;
+    text-align: left;
+    font-weight: 300;
 }
 
 .education {
-    width: 29%;
+    
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+}
+.year {
+    font-weight: 900;
+    width: 12%;
+    line-height: 1;
+    bottom: 13px;
+    position: relative;
+    right: 70px;
 }
 
-.educationIcon {
-    width: 67%;
-    margin: 3%;
+@media (min-width: 624px) {
+    .year {
+        right: 110px;
+    }
 }
 
-@media (min-width: 766px){
-    .educationContainer {
-        margin-top: unset;
+@media (min-width: 1024px){
+    .timeline { 
         flex-direction: row;
-        margin-top: 5%;
+        border-left: unset;
+        border-bottom: 2px solid white;
+        height: 5vh;
+        margin: 0 auto;
+        width: 80vw;
+        padding: unset;
     }
-    .educationIcon {
-        transition: border-radius 0.3s ease-in-out;
+    .education{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
-    .educationIcon:hover {
-        border-radius: 50%;
+    .year {
+        font-weight: 900;
+        width: 60%;
+        line-height: 1;
+            
+        position: relative;
+        top: 40px;
+        right: unset;
     }
+    .timeline h4 {
+        font-size: 0.7rem;
+        font-weight: 300;
+        text-align: left;
+    }
+    .timeline h5 {
+        font-size: 0.9rem;
+        text-align: left;
+        font-weight: 400;
+    }
+    
 }
