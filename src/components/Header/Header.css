@@ -22,10 +22,10 @@
     text-decoration: none;
 }
 a:focus {
-    color: #daefff;
+    color: #a8f0d7;
 }
 a:hover {
-    color: #daefff !important;
+    color: #a8f0d7 !important;
 }
 .brand {
     color: white;

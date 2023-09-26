@@ -23,7 +23,7 @@
 }
 
 .title {
-    color: #b8cae6;
+    color: #a8f0d7;
     font-size: 3rem;
     letter-spacing: -0.10rem;
 }
@@ -42,6 +42,9 @@
     .title {
         font-size: 3.4rem;
         font-weight: 600;
+    }
+    .title:hover {
+        color: white !important;
     }
     .presentation h5 {
         font-size: 3rem;

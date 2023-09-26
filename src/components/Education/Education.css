@@ -8,6 +8,9 @@
 
 .subtitles{
     color: white;
+    
+    color: #a8f0d7;
+    /* color: #f0e4a8; */
     text-align: left;
     font-weight: 700;
     font-size: 44px;
@@ -31,6 +34,8 @@
     font-size: 1.2rem;
     text-align: left;
     font-weight: 300;
+    color: #a8f0d7;
+    
 }
 
 .education {
