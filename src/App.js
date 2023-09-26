@@ -3,10 +3,9 @@ import Footer from './components/Footer/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Projects from './components/Projects/Projects';
 import Header from './components/Header/Header';
-import Education from './components/Education/Education';
-import Skills from './components/Skills/Skills';
 import Home from './components/Home/Home';
 import { useState } from 'react';
+import About from './components/About/About';
 
 function App() {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -20,11 +19,14 @@ function App() {
       <div onMouseMove={handleMouseMove} className="app-container">
         <Header />
         <Routes>
+          
           <Route path='/' element={<Home />} />
-          <Route path='/education' element={<Education />} />
+          <Route path='/about' element={<About />} />
           <Route path='/projects' element={<Projects />} />
-          <Route path='/skills' element={<Skills />} />
+
         </Routes>
+        
+      {/* <Footer/> */}
         <div className="cursor" style={{ left: cursorPosition.x, top: cursorPosition.y }}></div>
       </div>
     </BrowserRouter>
