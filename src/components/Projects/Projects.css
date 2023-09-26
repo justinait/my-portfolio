@@ -33,6 +33,10 @@
     margin: 1%;
 }
 
+.cardButton:hover {
+    color: white !important;
+}
+
 @media (min-width: 1024px) {
     .card {
         width: 14rem !important;
@@ -49,8 +53,8 @@
         /* border: 6px solid black; */
 
         box-shadow: -4px -5px 0px 4px rgba(208,208,208,1);
--webkit-box-shadow: -4px -5px 0px 4px rgba(208,208,208,1);
--moz-box-shadow: -4px -5px 0px 4px rgba(208,208,208,1);
+        -webkit-box-shadow: -4px -5px 0px 4px rgba(208,208,208,1);
+        -moz-box-shadow: -4px -5px 0px 4px rgba(208,208,208,1);
         border: 2px solid rgba(208,208,208,1) !important;
     }
 }
