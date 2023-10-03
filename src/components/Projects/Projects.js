@@ -119,7 +119,8 @@ function Projects() {
       {/* ACEITE DE OLIVA */}
       <div className='project'>
         <Card style={{ width: '18rem' }}>
-          <img src="https://i.ibb.co/sPHTVL0/aceite.png" alt="aceite" border="0" className='projectImage'/>
+
+          <img src="https://i.ibb.co/hB7PyZS/Captura-de-pantalla-2023-10-03-154330.png" alt="aceite" border="0" className='projectImage'/>
           
           <Card.Body>
             <Card.Title>E-commerce Aceite de Oliva</Card.Title>
