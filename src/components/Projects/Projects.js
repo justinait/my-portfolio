@@ -7,7 +7,32 @@ import './Projects.css'
 function Projects() {
   return (
     <div className='projectsContainer'>
+      {/* <img src="https://i.ibb.co/D9gNHpT/cmbroker-2.png" alt="cmbroker-2" border="0">
+ */}
       
+      {/* CM BROKER */}
+      <div className='project'>
+
+        <Card style={{ width: '18rem' }}>
+
+          <img src="https://i.ibb.co/rFQpZYR/cmbroker.png" alt="cmbroker" className='projectImage' border="0" />
+
+          <Card.Body>
+
+            <Card.Title>Página Web</Card.Title>
+
+            <Card.Text>
+              Página web CM BROKER, venta de seguros en Paraná. Desarrollo.
+            </Card.Text>
+            
+            <Button href='https://cmbroker.vercel.app/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+            <Button href='https://github.com/justinait/cmbroker' target="_blank" variant="dark" className='cardButton'>REPO</Button>
+
+          </Card.Body>
+
+        </Card>
+      </div>
+
       {/* CAI VENTURES */}
       <div className='project'>
 
