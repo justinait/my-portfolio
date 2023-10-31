@@ -25,7 +25,7 @@ function Projects() {
               Página web CM BROKER, venta de seguros en Paraná. Desarrollo.
             </Card.Text>
             
-            <Button href='https://cmbroker.vercel.app/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
+            <Button href='https://cmbroker.com.ar/' target="_blank" style={{textDecoration:'none'}} variant="outline-dark" className='cardButton'>DEMO</Button> 
             <Button href='https://github.com/justinait/cmbroker' target="_blank" variant="dark" className='cardButton'>REPO</Button>
 
           </Card.Body>
