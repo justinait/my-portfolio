@@ -4,7 +4,7 @@
     align-items: center;
     height: 16vh;
     position: sticky !important;
-    width: 100vw;
+    width: 100%;
     top: 0;
     background-color: rgb(44, 42, 42);
     flex-grow: 1;
@@ -23,24 +23,43 @@
 }
 a:focus {
     color: #a8f0d7;
-}
+} 
 a:hover {
     color: #a8f0d7 !important;
 }
+
 .brand {
     color: white;
     font-size: 1.8rem;
     font-weight: 600;
     text-decoration: none;
 }
+.whiteNavbar {
+    height: 10vh;
+}
+
 
 @media (min-width: 1024px) {
-    
+
+    .whiteNavbar {
+        background-color: #ffffffe8;
+    }
+    .whiteNavbar .navbarItem,
+    .whiteNavbar .brand {
+        color: #000;
+    }       
+    .whiteNavbar a:hover {
+        color: #f0a8c1 !important;
+    }
+
     .rightNavbar {
         justify-content: space-evenly;
     }
     .navbar {
         height: 20vh;
+    }
+    .whiteNavbar {
+        height: 15vh;
     }
     .navbarItem {
         font-size: 1.5rem;

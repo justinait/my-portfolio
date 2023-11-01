@@ -7,8 +7,7 @@ import './Projects.css'
 function Projects() {
   return (
     <div className='projectsContainer'>
-      {/* <img src="https://i.ibb.co/D9gNHpT/cmbroker-2.png" alt="cmbroker-2" border="0">
- */}
+      {/* <img src="https://i.ibb.co/D9gNHpT/cmbroker-2.png" alt="cmbroker-2" border="0">*/}
       
       {/* CM BROKER */}
       <div className='project'>

@@ -1,0 +1,79 @@
+.freelanceContainer {
+    background-color: #fff;
+    padding-top: 7%;
+}
+.freelance{
+    height: 90vh;
+    text-align: right;
+    display: block;
+}
+
+a {
+    text-decoration: none !important;
+}
+.freelanceImage {
+    height: 90%;
+    width: 90vw;
+    object-fit: cover;
+    background-color: white;
+    opacity: 0.5;
+    object-position: top;
+}
+.desktopFreelance {
+    display: none;
+}
+
+.pagesDescription p{
+    color: black !important;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.subdescription{
+    
+    font-size: 25px !important;
+    font-weight: 500 !important;
+}
+.pagesDescription {
+    position: relative;
+    bottom: 250px;
+}
+
+@media (min-width: 1024px){
+ 
+    .freelance{
+        height: 80vh;
+        text-align: center;
+    }
+
+    .freelanceImage {
+        height: 58vh;
+        width: auto;
+        background-color: unset;
+        opacity: unset;
+    }
+    
+    .desktopFreelance {
+        display: inline;
+    }
+    .mobileFreelance {
+        display: none;
+    }
+    .freelanceImage:hover, .pagesDescription:hover {
+        background-color: white;
+        opacity: 0.2;
+        transition-property:  all;
+        transition-duration: 0.3s;
+    }
+    .pagesDescription{
+        display: none;
+        width: 10px;
+    }
+    .pagesDescription:hover{
+        display: inline;
+    }
+    .freelanceImage:hover + .pagesDescription{
+        display: inline;
+    }
+   
+}

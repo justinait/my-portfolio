@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import './Header.css'
 
-function Header() {
+function Header({customStyle}) {
   return (
     <>     
-      <div className='navbar'>
+      <div className={customStyle ? 'navbar whiteNavbar' : 'navbar'}>
         <Link to={'/'} className='brand'> Justina        </Link>
 
         <div className='rightNavbar'>
@@ -13,19 +13,6 @@ function Header() {
 
         </div>
       </div>
-      
-      
-      
-      {/* <Navbar bg="light" variant="light">
-        <Container>
-          <Navbar.Brand id='justina' href="/">Justina</Navbar.Brand>
-          <Nav className="me-auto rightNavbar">
-            <Nav.Link href="/projects">Proyectos</Nav.Link>
-            <Nav.Link href="/skills">Skills</Nav.Link>
-            <Nav.Link href="/education">Formación</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar> */}
     </>
   );
 }
