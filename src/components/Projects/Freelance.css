@@ -6,6 +6,7 @@
     height: 90vh;
     text-align: right;
     display: block;
+    margin-bottom: 25%;
 }
 
 a {
@@ -39,13 +40,22 @@ a {
 }
 
 @media (min-width: 1024px){
- 
+    
+    .mobileFreelance {
+        display: none;
+    }
+    .desktopFreelance {
+        display: inline;
+    }
     .pagesDescription{
         opacity: 0;
     }
     .freelance{
         height: 80vh;
         text-align: center;
+        margin-bottom: 5%;
+        width: 60vw;
+        margin: auto;
     }
 
     .freelanceImage {
@@ -53,14 +63,9 @@ a {
         width: auto;
         background-color: unset;
         opacity: unset;
+        border-radius: 10px;
     }
-    
-    .desktopFreelance {
-        display: inline;
-    }
-    .mobileFreelance {
-        display: none;
-    }
+
     .freelanceImage:hover {
         background-color: white;
         opacity: 0.2;
@@ -68,20 +73,17 @@ a {
         transition-duration: 0.3s;
         display: inline;
     }
-    .pagesDescription:hover .freelanceImage {
+
+    .freelance:hover .freelanceImage {
         background-color: white;
         opacity: 0.2;
-    }/* esto no funciona */
-    .pagesDescription:hover{
-        display: inline;
-        opacity: 1;
     }
+
     .freelance:hover .pagesDescription{
-        display: inline;
+        /* display: inline; */
         opacity: 1;
-        width: 50%;
         position: relative;
-        bottom: 300px;
+        bottom: 280px;
         color: black;
     }
    
