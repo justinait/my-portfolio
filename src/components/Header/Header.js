@@ -8,7 +8,7 @@ function Header({customStyle}) {
         <Link to={'/'} className='brand'> Justina        </Link>
 
         <div className='rightNavbar'>
-          <Link to={'/projects'} className='navbarItem'> Proyectos        </Link>
+          <Link to={'/webpages'} className='navbarItem'> Proyectos        </Link>
           <Link to={'/about'} className='navbarItem'> Sobre mí        </Link>
 
         </div>

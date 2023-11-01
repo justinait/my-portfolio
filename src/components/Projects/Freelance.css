@@ -77,6 +77,8 @@ a {
     .freelance:hover .freelanceImage {
         background-color: white;
         opacity: 0.2;
+        transition-property:  all;
+        transition-duration: 0.3s;
     }
 
     .freelance:hover .pagesDescription{

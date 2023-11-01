@@ -22,7 +22,7 @@ function App() {
           
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/projects' element={<Projects />} />
+          {/* <Route path='/projects' element={<Projects />} /> */}
           <Route path='/webpages' element={<Freelance toggleCustomNavbar={toggleCustomNavbar} />} />
 
         </Routes>
