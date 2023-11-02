@@ -36,7 +36,7 @@ function Education() {
           {/* <img src='/logos/unl.gif' className='educationIcon'/>   */}
           <h4>Universidad Nacional del Litoral</h4>
           <h5>Analista en Sistemas</h5>
-          <p className='year'>2019 - 2021</p>
+          <p className='year'>2021 - 2019</p>
         </div>    
       </div>
     </div>
