@@ -8,8 +8,12 @@ function Education() {
       <p className='subtitles'>        Educación       </p>
       
       <div className='timeline'>
+        
         <div className='education'>
-          {/* <img src='/logos/UADER2.png' className='educationIcon'/>   */}
+          
+          <h4>Taller Jorge Duje</h4>
+          <h5>Firebase y Mercado Pago</h5>
+          <br/>
           <h4>Universidad Autónoma De Entre Ríos</h4>
           <h5>Introducción al Diseño UX/UI</h5>
           <p className='year'>2023</p>

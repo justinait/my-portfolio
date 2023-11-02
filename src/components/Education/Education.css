@@ -20,7 +20,7 @@
 .timeline {
     padding: 5%;
     color: white;
-    height: 50vh;
+    height: 55vh;
     border-left: 2px solid white;
     display: flex;
     flex-direction: column;
@@ -78,8 +78,10 @@
     }
     .education{
         display: flex;
-        justify-content: space-evenly;
+        
+        justify-content: flex-end;
         align-items: center;
+        height: 9vh;
     }
     .year {
         font-weight: 900;
@@ -91,14 +93,23 @@
         right: unset;
     }
     .timeline h4 {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         font-weight: 300;
         text-align: left;
     }
-    .timeline h5 {
-        font-size: 0.9rem;
+    .timeline h5 {        
+        font-size: 0.75rem;
         text-align: left;
         font-weight: 400;
     }
     
+}
+@media (min-width: 1500px){
+
+    .timeline h5 {
+        font-size: 0.9rem;
+    }
+    .timeline h4 {
+        font-size: 0.7rem;
+    }
 }
