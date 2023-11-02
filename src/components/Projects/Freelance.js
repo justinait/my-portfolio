@@ -15,8 +15,8 @@ function Freelance({toggleCustomNavbar}) {
       {/* CM BROKER */}
         <a href='https://cmbroker.com.ar/' target="_blank"  className='freelance'>
 
-            <img src='/projects/cmbrokerhero.png' alt="cmbroker" className='freelanceImage desktopFreelance' border="0" />
-            <img src='/projects/cmbrokermobile.jpeg' alt="cmbroker" className='freelanceImage mobileFreelance' border="0" />
+            <img src='/projects/cmbrokerhero-min.png' alt="cmbroker" className='freelanceImage desktopFreelance' border="0" />
+            <img src='/projects/cmbrokermobile-min.jpeg' alt="cmbroker" className='freelanceImage mobileFreelance' border="0" />
 
             <div className='pagesDescription'>
                 <p>CM BROKER</p>
@@ -28,8 +28,8 @@ function Freelance({toggleCustomNavbar}) {
 
         <a href='https://www.caiventuresconsultoria.com/' target="_blank"  className='freelance'>
 
-            <img src='/projects/caiventureshero.png' alt="cai ventures" className='freelanceImage desktopFreelance' border="0" />
-            <img src='/projects/caiventuresmobile.jpeg' alt="cai ventures" className='freelanceImage mobileFreelance' border="0" />
+            <img src='/projects/caiventureshero-min.png' alt="cai ventures" className='freelanceImage desktopFreelance' border="0" />
+            <img src='/projects/caiventuresmobile-min.jpeg' alt="cai ventures" className='freelanceImage mobileFreelance' border="0" />
 
             <div className='pagesDescription'>
                 <p>CAI VENTURES</p>
@@ -41,8 +41,8 @@ function Freelance({toggleCustomNavbar}) {
 
         <a href='https://www.eskamaq.com/' target="_blank"  className='freelance'>
 
-            <img src='/projects/eskamaqhero.png' alt="eskamaq" className='freelanceImage desktopFreelance' border="0" />
-            <img src='/projects/eskamaqmobile.jpeg' alt="eskamaq" className='freelanceImage mobileFreelance' border="0" />
+            <img src='/projects/eskamaqhero-min.png' alt="eskamaq" className='freelanceImage desktopFreelance' border="0" />
+            <img src='/projects/eskamaqmobile-min.jpeg' alt="eskamaq" className='freelanceImage mobileFreelance' border="0" />
 
             <div className='pagesDescription'>
                 <p>ESKAMAQ</p>
@@ -54,8 +54,8 @@ function Freelance({toggleCustomNavbar}) {
         
         <a href='https://www.jorgelinaparkinson.com/' target="_blank"  className='freelance'>
 
-            <img src='/projects/jorgelinahero.png' alt="jorgelina parkinson" className='freelanceImage desktopFreelance' border="0" />
-            <img src='/projects/jorgelinamobile.png' alt="jorgelina parkinson" className='freelanceImage mobileFreelance' border="0" />
+            <img src='/projects/jorgelinahero-min.png' alt="jorgelina parkinson" className='freelanceImage desktopFreelance' border="0" />
+            <img src='/projects/jorgelinamobile-min.png' alt="jorgelina parkinson" className='freelanceImage mobileFreelance' border="0" />
 
             <div className='pagesDescription'>
                 <p>JORGELINA PARKINSON</p>
@@ -69,8 +69,8 @@ function Freelance({toggleCustomNavbar}) {
         
         <a href='https://www.regia.ar/' target="_blank"  className='freelance'>
 
-            <img src='/projects/regiahero.png' alt="regia" className='freelanceImage desktopFreelance' border="0" />
-            <img src='/projects/regiamobile.jpeg' alt="regia" className='freelanceImage mobileFreelance' border="0" />
+            <img src='/projects/regiahero-min.png' alt="regia" className='freelanceImage desktopFreelance' border="0" />
+            <img src='/projects/regiamobile-min.jpeg' alt="regia" className='freelanceImage mobileFreelance' border="0" />
 
             <div className='pagesDescription'>
                 <p>REGIA</p>
