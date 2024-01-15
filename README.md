@@ -1,7 +1,8 @@
 Hi! I'm Justina Iturraspe, frontend developer working freelance.
 
-
 Here is my portfolio
+
+<img align="center" src="./public/portfolio2.png">
 
 <h3>👉🏻 Justina Iturraspe - Frontend Developer.</h3>
 
