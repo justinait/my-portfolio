@@ -12,7 +12,19 @@ function Freelance({toggleCustomNavbar}) {
   return (
     <div className='freelanceContainer'>
         
-      {/* CM BROKER */}
+        {/* CM BROKER */}
+        <a href='https://rollerbeige.com.ar/' target="_blank"  className='freelance'>
+
+            <img src='/projects/roller (1).png' alt="rollerbeige" className='freelanceImage desktopFreelance' border="0" />
+            <img src='/projects/rollermobile.jpeg' alt="rollerbeige" className='freelanceImage mobileFreelance' border="0" />
+
+            <div className='pagesDescription'>
+                <p>ROLLERBEIGE</p>
+                <p className='subdescription'>Página web</p>
+            </div>
+        </a>
+
+        {/* CM BROKER */}
         <a href='https://cmbroker.com.ar/' target="_blank"  className='freelance'>
 
             <img src='/projects/cmbrokerhero-min.png' alt="cmbroker" className='freelanceImage desktopFreelance' border="0" />
