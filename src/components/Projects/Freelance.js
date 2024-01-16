@@ -19,7 +19,7 @@ function Freelance({toggleCustomNavbar}) {
             <img src='/projects/rollermobile.jpeg' alt="rollerbeige" className='freelanceImage mobileFreelance' border="0" />
 
             <div className='pagesDescription'>
-                <p>ROLLERBEIGE</p>
+                <p>ROLLER <br/> BEIGE</p>
                 <p className='subdescription'>Página web</p>
             </div>
         </a>
