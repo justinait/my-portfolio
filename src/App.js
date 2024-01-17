@@ -1,5 +1,4 @@
 import './App.css';
-import Footer from './components/Footer/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Projects from './components/Projects/Projects';
 import Header from './components/Header/Header';
@@ -27,7 +26,6 @@ function App() {
 
         </Routes>
         
-      {/* <Footer/> */}
       </div>
     </BrowserRouter>
   );
