@@ -10,7 +10,7 @@ function About() {
     <div>
       <div className='aboutText'>
         <p className='subtitles'>Sobre mí</p>
-        <p >
+        <p>
           Soy Justina, estudiante autodidacta de Desarrollo Web enfocado en Frontend. 
           Actualmente estoy potenciando mi desarrollo
           académico y profesional como desarrolladora web
