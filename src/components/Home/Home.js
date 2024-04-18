@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../Footer/Footer'
 import './Home.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Home() {
+  useEffect(() => {
+    AOS.init(); // Inicializa AOS
+  }, []);
   
   return (
     <div>
       
-      <div className='presentation'>
+      <div className='presentation' data-aos="zoom-in-down">
         <h2>Portfolio </h2>
         <h3><a className='title' href='https://drive.google.com/file/d/1DPkT79B7gM67CwBe5R5lrf_FbP5A5kY4/view' target="_blank" style={{textDecoration:'none'}}>          Justina Iturraspe        </a></h3>
         <h5>Frontend developer</h5>
