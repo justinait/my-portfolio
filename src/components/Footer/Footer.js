@@ -35,7 +35,7 @@ function Footer() {
         />
       </OverlayTrigger>
       
-      <a href='wa.link/jy3kda' target="_blank">
+      <a href='https://wa.link/iq6jis' target="_blank">
         <WhatsAppIcon className='socialMediaIcon' fontSize='large' />
       </a>
         
