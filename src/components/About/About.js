@@ -20,7 +20,7 @@ function About() {
         </p>
       </div>
       
-      <Education />
+      {/* <Education /> */}
       {/* <Skills /> */}
     </div>
   )
