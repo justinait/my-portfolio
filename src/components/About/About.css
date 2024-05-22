@@ -8,7 +8,15 @@
     font-weight: 300;
     font-size: large;
 }
+@media(min-width:700px){
+    .aboutText{
 
+        padding: 10% 0;
+    }
+    .aboutText p {
+        font-size: 25px;
+    }
+}
 
 @media (min-width:1024px) {
     .aboutText {   
