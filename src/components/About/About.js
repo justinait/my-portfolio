@@ -4,6 +4,7 @@ import Skills from '../Skills/Skills'
 import './About.css'
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import Face4Icon from '@mui/icons-material/Face4';
+import { ContactForm } from './Contact';
 
 function About() {
   return (
@@ -19,7 +20,7 @@ function About() {
           nuevos desafíos y enfrentarlos con determinación.       
         </p>
       </div>
-      
+      <ContactForm />
       {/* <Education /> */}
       {/* <Skills /> */}
     </div>
