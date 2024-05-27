@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 
 function Freelance() {
     const freelanceProjects = [
+        { name: 'Eleven Pro Cars', image: '/projects/elevenpro web.png', web: 'https://elevenprocar.com', description: 'Maquetación y Desarrollo', stack: ['React Js', 'Javascript', 'HTML', 'CSS', 'GitHub'] },
         { name: 'ParmaShop', image: '/projects/parmaweb.png', web: 'https://parmashop.com.ar', description: 'Maquetación y Desarrollo', stack: ['React Js', 'E-commerce', 'Javascript', 'HTML', 'CSS', 'Auth', 'GitHub', 'Firebase database', 'Mercado Pago'] },
         { name: 'RollerBeige', image: '/projects/roller web.png', web: 'https://rollerbeige.com.ar', description: 'Maquetación y Desarrollo', stack: ['React Js', 'E-commerce','Javascript', 'HTML', 'CSS', 'Auth', 'GitHub', 'Firebase database', 'Mercado Pago'] },
         { name: 'CM Broker', image: '/projects/cmbrokerweb1.png', web: 'https://cmbroker.com.ar/', description: 'Desarrollo', stack: ['React Js', 'Javascript', 'HTML', 'CSS', 'FormsJs', 'GitHub'] },
