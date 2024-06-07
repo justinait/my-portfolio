@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 
 function Freelance() {
     const freelanceProjects = [
+        { name: 'The Looney Studio', image: '/projects/looney web.png', web: 'https://thelooneystudio.com', description: 'Desarrollo', stack: ['React Js', 'Javascript', 'HTML', 'CSS', 'GitHub'] },
         { name: 'Medical City', image: '/projects/medicalcity web.png', web: 'https://medicalcitypv.com', description: 'Desarrollo', stack: ['React Js', 'Javascript', 'HTML', 'CSS', 'GitHub'] },
         { name: 'Eleven Pro Cars', image: '/projects/elevenpro web.png', web: 'https://elevenprocar.com', description: 'Maquetación y Desarrollo', stack: ['React Js', 'Javascript', 'HTML', 'CSS', 'GitHub'] },
         { name: 'ParmaShop', image: '/projects/parmaweb.png', web: 'https://parmashop.com.ar', description: 'Maquetación y Desarrollo', stack: ['React Js', 'E-commerce', 'Javascript', 'HTML', 'CSS', 'Auth', 'GitHub', 'Firebase database', 'Mercado Pago'] },
