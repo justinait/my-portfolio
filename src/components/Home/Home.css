@@ -13,6 +13,7 @@
     height: 40vh;
     flex-direction: column;
     justify-content: space-evenly;
+    overflow: hidden
 }
 .presentation h2 {
     display: none;

@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Freelance from './components/Projects/Freelance';
 import { useState } from 'react';
+import 'animate.css';
 
 function App() {
   
