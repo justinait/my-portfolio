@@ -1,14 +1,9 @@
 import React, { useEffect } from 'react'
 import Footer from '../Footer/Footer'
 import './Home.css'
-import AOS from 'aos';
-// import 'aos/dist/aos.css';
 import 'animate.css';
 
 function Home() {
-  // useEffect(() => {
-  //   AOS.init(); // Inicializa AOS
-  // }, []);
   
   return (
     <div>

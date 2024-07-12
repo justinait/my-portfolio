@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react'
 import './Freelance.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 function Freelance() {
     const freelanceProjects = [
@@ -15,18 +13,14 @@ function Freelance() {
         { name: 'Eskamaq', image: '/projects/eskamaq web.png', web: 'https://www.eskamaq.com', description: 'Desarrollo', stack: ['React Js', 'Javascript', 'HTML', 'CSS', 'GitHub', 'Firebase database'] },
         { name: 'Jorgelina Parkinson', image: '/projects/parkinson web.png', web: 'https://www.jorgelinaparkinson.com/', description: 'Maquetación y Desarrollo', stack: ['React Js', 'Javascript', 'HTML', 'CSS', 'FormsJs', 'GitHub', 'Firebase database'] },
         { name: 'Regia', image: '/projects/regia web.png', web: 'https://www.regia.ar/', description: 'Desarrollo', stack: ['Javascript', 'HTML', 'CSS', 'GitHub'] },
-        
     ]
-    useEffect(() => {
-        AOS.init(); // Inicializa AOS
-    }, []);
   return (
     <div className='freelanceContainer'>
         
         {
             freelanceProjects.map((e, i)=> {
                 return (
-                    <a href={e.web} target="_blank" key={i} className='freelance' data-aos="zoom-in-down">
+                    <a href={e.web} target="_blank" key={i} className='freelance'>
 
                         <img src={e.image} alt={e.name} className='freelanceImage' border="0" />
 

@@ -1,18 +1,14 @@
 import React, { useEffect } from 'react'
 import './Education.css'
 import SchoolIcon from '@mui/icons-material/School';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 function Education() {
-  useEffect(() => {
-    AOS.init(); // Inicializa AOS
-  }, []);
+  
   return (
     <div className='educationContainer'>
       <p className='subtitles'>        Educación       </p>
       
-      <div className='timeline' data-aos="fade-down">
+      <div className='timeline'>
         
         <div className='education'>
           
