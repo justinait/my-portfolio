@@ -1,8 +1,10 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './Freelance.css'
 
 function Freelance() {
     const freelanceProjects = [
+        { name: 'E2 Yacht Services', image: '/projects/yacht web.png', web: 'https://www.e2yachtservices.com', description: 'Desarrollo', stack: ['React Js', 'Javascript', 'HTML', 'CSS', 'GitHub'] },
+        { name: 'Center Detail Franquicias', image: '/projects/centerdetail web.png', web: 'https://www.centerdetail.com', description: 'Desarrollo', stack: ['React Js', 'Javascript', 'HTML', 'CSS', 'GitHub'] },
         { name: 'Autos Polo', image: '/projects/autospolo web.png', web: 'https://www.autospolo.com', description: 'Maquetación y Desarrollo', stack: ['React Js', 'Javascript', 'HTML', 'CSS', 'GitHub', 'Diseño UX UI', 'Firebase database', 'Auth'] },
         { name: 'The Looney Studio', image: '/projects/looney web.png', web: 'https://www.thelooneystudio.com', description: 'Desarrollo', stack: ['React Js', 'Javascript', 'HTML', 'CSS', 'GitHub'] },
         { name: 'Medical City', image: '/projects/medicalcity web.png', web: 'https://medicalcitypv.com', description: 'Desarrollo', stack: ['React Js', 'Javascript', 'HTML', 'CSS', 'GitHub'] },
