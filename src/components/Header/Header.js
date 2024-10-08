@@ -9,8 +9,7 @@ function Header({customStyle}) {
 
         <div className='rightNavbar'>
           <Link to={'/webpages'} className='navbarItem'> Proyectos        </Link>
-          <Link to={'/about'} className='navbarItem'> Sobre mí        </Link>
-
+          <Link to={'/contact'} className='navbarItem'> Contacto        </Link>
         </div>
       </div>
     </>

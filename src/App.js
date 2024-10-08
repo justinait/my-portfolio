@@ -7,6 +7,7 @@ import About from './components/About/About';
 import Freelance from './components/Projects/Freelance';
 import { useState } from 'react';
 import 'animate.css';
+import { ContactForm } from './components/About/Contact';
 
 function App() {
   
@@ -21,7 +22,7 @@ function App() {
         <Routes>
           
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<ContactForm />} />
           {/* <Route path='/projects' element={<Projects />} /> */}
           <Route path='/webpages' element={<Freelance toggleCustomNavbar={toggleCustomNavbar} />} />
 
