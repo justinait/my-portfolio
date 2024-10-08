@@ -5,7 +5,7 @@ function Header({customStyle}) {
   return (
     <>     
       <div className={customStyle ? 'navbar whiteNavbar' : 'navbar'}>
-        <Link to={'/'} className='brand'> Just        </Link>
+        <Link to={'/'} className='brand'> ImJustWebs        </Link>
 
         <div className='rightNavbar'>
           <Link to={'/webpages'} className='navbarItem'> Proyectos        </Link>
